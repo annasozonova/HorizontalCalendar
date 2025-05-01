@@ -1,0 +1,8 @@
+<resources>
+
+    <declare-styleable name="HorizontalCalendar">
+        <attr name="visibleRange" format="integer"/>
+        <attr name="showWeekDividers" format="boolean"/>
+        <attr name="weekStartsOnMonday" format="boolean"/>
+    </declare-styleable>
+</resources>

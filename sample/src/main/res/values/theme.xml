@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Use any AppCompat or MaterialComponents NoActionBar parent you like -->
+    <style name="Theme.Sample" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your sample app colors if you want -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorSecondary">@color/teal_200</item>
+    </style>
+</resources>

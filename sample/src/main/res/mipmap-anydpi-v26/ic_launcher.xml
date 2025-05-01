@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- color/background layer -->
+    <background android:drawable="@drawable/ic_launcher_background"/>
+
+    <!-- full-color artwork layer -->
+    <foreground android:drawable="@drawable/ic_launcher_foreground"/>
+
+    <!-- single-color mask for system uses -->
+    <monochrome android:drawable="@drawable/ic_launcher_foreground"/>
+</adaptive-icon>
