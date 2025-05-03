@@ -228,7 +228,6 @@ This project no longer includes a built-in sample module, but you can still test
 ## Acknowledgments
 
 - Based on the original [HorizontalCalendar by B-Sahana](https://github.com/B-Sahana/Horizontal-Calendar-Sample) (MIT License).
-- Inspired by user feedback and community contributions.
 
 ---
 
