@@ -61,7 +61,6 @@ A **lightweight**, **highly customizable** Android library providing an **infini
 2. In `settings.gradle`:
    ```groovy
    include ':library'
-   include ':sample'  # optional demo app
    ```
 3. In your app’s `build.gradle`:
    ```groovy
@@ -166,15 +165,52 @@ calendar.setWeekStartsOnMonday(false);  # weeks start on Sunday
 
 ---
 
-## Sample App
+## Sample App / Testing
 
-A working demo is provided in the [`sample/`](sample/) module.
+This project no longer includes a built-in sample module, but you can still test the calendar widget:
 
-```bash
-git clone https://github.com/annasozonova/HorizontalCalendar.git
-cd HorizontalCalendar
-./gradlew :sample:installDebug
-```
+### 1. Import as a Local Module
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/annasozonova/HorizontalCalendar.git
+   cd HorizontalCalendar
+   ```
+2. Open **Android Studio** and choose **File → New → Import Module...**, then select the `library/` folder and import.
+3. In your project’s `settings.gradle`:
+   ```groovy
+   include ':library'
+   ```
+4. In your app module’s `build.gradle`, add:
+   ```groovy
+   dependencies {
+     implementation project(':library')
+   }
+   ```
+5. Apply the **Quick Start** code in your layout and Activity, then run on a device or emulator.
+
+### 2. Via JitPack
+
+1. Follow the **Installation → Via JitPack** instructions above to add the library.
+2. Apply the **Quick Start** snippet in your layout and Activity, then run.
+
+### 3. Testing Local Changes
+
+1. Publish to your local Maven:
+   ```bash
+   ./gradlew publishToMavenLocal
+   ```
+2. In your consuming app’s `build.gradle`:
+   ```groovy
+   repositories {
+     mavenLocal()
+     mavenCentral()
+   }
+   dependencies {
+     implementation 'com.github.annasozonova:HorizontalCalendar:1.0.0'
+   }
+   ```
+3. Sync and apply the **Quick Start** snippet to verify your changes.
 
 ---
 
