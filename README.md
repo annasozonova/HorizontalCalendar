@@ -19,8 +19,11 @@ A **lightweight**, **highly customizable** Android library providing an **infini
 - [XML Attributes](#xml-attributes)  
 - [API Reference](#api-reference)  
 - [Customization](#customization)  
-- [Sample App](#sample-app)  
-- [Contributing](#contributing)  
+- [Sample App / Testing](#sample-app--testing)
+- [Changelog](#changelog) 
+- [Acknowledgments](#acknowledgments)
+- [Author](#author)
+- [Contact & Support](#contact--support)
 - [License](#license)  
 
 ---
