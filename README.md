@@ -54,7 +54,7 @@ A **lightweight**, **highly customizable** Android library providing an **infini
 2. In your **app** module’s `build.gradle`, add:
    ```groovy
    dependencies {
-     implementation 'com.github.annasozonova:HorizontalCalendar:1.0.0'
+     implementation 'com.github.annasozonova:HorizontalCalendar:1.0.2'
    }
    ```
 
