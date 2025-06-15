@@ -210,7 +210,7 @@ This project no longer includes a built-in sample module, but you can still test
      mavenCentral()
    }
    dependencies {
-     implementation 'com.github.annasozonova:HorizontalCalendar:1.0.0'
+     implementation 'com.github.annasozonova:HorizontalCalendar:1.0.2'
    }
    ```
 3. Sync and apply the **Quick Start** snippet to verify your changes.
