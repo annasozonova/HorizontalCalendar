@@ -109,6 +109,11 @@ public class HorizontalCalendar extends RelativeLayout {
         monthYearTextView = findViewById(R.id.text_month_year);
         selectionFrame = findViewById(R.id.selectionFrame);
 
+        recyclerView.setOnTouchListener((v, event) -> {
+            v.getParent().requestDisallowInterceptTouchEvent(true);
+            return false;
+        });
+
         // Read custom attributes from XML
         if (attrs != null) {
             TypedArray typedArray = context.getTheme().obtainStyledAttributes(attrs, R.styleable.HorizontalCalendar, 0, 0);
